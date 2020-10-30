@@ -20,3 +20,5 @@ RUN go get google.golang.org/grpc && \
     go get google.golang.org/grpc/cmd/protoc-gen-go-grpc && \
     go get github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway && \
     go get github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2
+    
+CMD [ "protoc"]
